@@ -23,14 +23,14 @@ window.addEventListener('keydown', function (e) {
         if (raceCarLeft < 260) {
             raceCar.style.left = (raceCarLeft + 130) + 'px'
         }
-        jump.play()
+        jump.play() // Adding sound
     }
     if (e.keyCode === 37) {
         let raceCarLeft = parseInt(this.window.getComputedStyle(raceCar).getPropertyValue('left'))
         if (raceCarLeft > 0) {
             raceCar.style.left = (raceCarLeft - 130) + 'px'
         }
-        jump.play()
+        jump.play() // Adding sound 
     }
 })
 

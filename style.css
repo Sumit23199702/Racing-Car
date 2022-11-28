@@ -6,7 +6,7 @@
 #game {
     height: 500px;
     width: 390px;
-    border: 1px solid black;
+    border: 1px solid rgb(23, 3, 3);
     margin: 1rem auto;
     background: url(bg.jpg);
     background-size: contain;
@@ -21,7 +21,7 @@
     position: relative;
     top: 0;
     left: 0;
-    animation: move 1s linear infinite;
+    animation: move 1.2s linear infinite;
 }
 
 #blue img {
